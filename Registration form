@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br><br>
+  User name:<br>
+  <input type="text" name="username">
+  <br><br>
+  Password:<br>
+  <input type="text"name="password">
+  <br><br>
+  Confirm password:<br>
+  <input type="text"name="confirmpassword">
+  <br><br>
+  Current or completed study:<br>
+  <input type="radio" name="studylvl" value="bachelor" checked> Bachelor
+  <input type="radio" name="studylvl" value="Master"> Master
+  <br>
+  <input type="text"name="study">
+  <br><br>
+  Date of birth:<br>
+   <input type="date" name="age">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
