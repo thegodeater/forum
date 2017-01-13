@@ -2,8 +2,8 @@
 	height: 5em;
 	width: 100%;
 	background-color: black;
-	border-radius: 0.5em;
-	margin-bottom: 0.1em;
+	
+
 }
 #title {
 	margin: 0.2em;
@@ -22,12 +22,16 @@
 }
 body {
 	background-color: #e6e6ff;
+	margin:0;
+padding:0;
+
 }
+
 .banner {
 	height: 15em;
 	width: 100%;
 	background-color: white;
-	border-radius: 0.5em;
+
 }
 a {
 	color: white;
@@ -41,17 +45,18 @@ a:hover {
 	color: #ccccff;
 }
 img {
-	border-radius: 0.5em;
+
 }
 ul {
 	display: inline;
 }
 .footer {
+	margin-top:-0.50em;
 	height: 3em;
 	width: 100%;
 	background-color: black;
-	border-radius: 0.5em;
-	margin-bottom: 0.1em;
+
+
 }
 #names {
 	color: white;
@@ -59,4 +64,8 @@ ul {
 	display: block;
 	font-family: Verdana;
 	float: right;
+}
+#page-wrap{
+	margin:0;
+	padding:0;
 }
