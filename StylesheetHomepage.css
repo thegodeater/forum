@@ -3,7 +3,7 @@
 	width: 100%;
 	background-color: black;
 	border-radius: 0.5em;
-	margin-bottom: 0.1em;
+	margin-bottom: 0.5em;
 }
 #title {
 	margin: 0.2em;
@@ -43,15 +43,12 @@ a:hover {
 img {
 	border-radius: 0.5em;
 }
-ul {
-	display: inline;
-}
 .footer {
 	height: 3em;
 	width: 100%;
 	background-color: black;
 	border-radius: 0.5em;
-	margin-bottom: 0.1em;
+	margin-bottom: 0em;
 }
 #names {
 	color: white;
@@ -59,4 +56,37 @@ ul {
 	display: block;
 	font-family: Verdana;
 	float: right;
+}
+#OverOns {
+	background-color: #cccccc;
+	width: 79%;
+	height: 100%;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+#side-menu {
+	display: inline-block;
+	background-color: white;
+	width: 20%;
+	height: 100%;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+}
+ul li a {
+	text-align: center;
+	font-family: Verdana;
+	color: #ccccff;
+	font-size: 1.5em;
+	border-bottom: 0.1em solid #cccccc;
+}
+ul li a:hover {
+	color: black;
+}
+ul li:first-child {
+	margin-top: 1em;
+}
+ul li {
+	margin-bottom: 1em;
 }
