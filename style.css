@@ -12,16 +12,25 @@ body{
 	background-color:red;
 	border-radius: 2px
 }
-#lon {
-	margin-left:40%;
-}
+
 #telephone{
-	margin-left:40%;
+	 display: center;
 }
 .haha{
 	margin-left:20%;
 }
 #login{
-	width:1%;
-	height:1%;
+
 }
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+}
+
+#aa{
+	display:inline;
+float:right;
+}
+
