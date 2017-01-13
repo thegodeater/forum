@@ -10,5 +10,18 @@ body{
 	margin-left:5%;
 	margin-right:5%;
 	background-color:red;
-	border-ra
+	border-radius: 2px
+}
+#lon {
+	margin-left:40%;
+}
+#telephone{
+	margin-left:40%;
+}
+.haha{
+	margin-left:20%;
+}
+#login{
+	width:1%;
+	height:1%;
 }
