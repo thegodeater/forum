@@ -1,0 +1,62 @@
+.menu {
+	height: 5em;
+	width: 100%;
+	background-color: black;
+	border-radius: 0.5em;
+	margin-bottom: 0.1em;
+}
+#title {
+	margin: 0.2em;
+	display: inline-block;
+	font-family: Verdana;
+	color: #e6e6ff;
+	font-size: 3em;
+}
+.menuItem {
+	height: 5em;
+	width: 10em;
+	background-color: white;
+	display:inline-block; 
+	font-family: Verdana;
+	
+}
+body {
+	background-color: #e6e6ff;
+}
+.banner {
+	height: 15em;
+	width: 100%;
+	background-color: white;
+	border-radius: 0.5em;
+}
+a {
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 2em;
+	margin-left: 1em;
+}
+a:hover {
+	text-decoration: none;
+	color: #ccccff;
+}
+img {
+	border-radius: 0.5em;
+}
+ul {
+	display: inline;
+}
+.footer {
+	height: 3em;
+	width: 100%;
+	background-color: black;
+	border-radius: 0.5em;
+	margin-bottom: 0.1em;
+}
+#names {
+	color: white;
+	margin: 0.4em;
+	display: block;
+	font-family: Verdana;
+	float: right;
+}
