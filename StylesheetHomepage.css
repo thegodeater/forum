@@ -69,3 +69,45 @@ ul {
 	margin:0;
 	padding:0;
 }
+
+#OverOns {
+	background-color: #cccccc;
+	width: 80%;
+	height: 100%;
+	 float: left;
+ 
+	
+}
+#side-menu {
+	
+	background-color: white;
+	width: 20%;
+	height: 100%;
+	 float: left;
+  
+	
+}
+#context::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+ul li a {
+	text-align: center;
+	font-family: Verdana;
+	color: #ccccff;
+	font-size: 1.5em;
+	border-bottom: 0.1em solid #cccccc;
+}
+ul li a:hover {
+	color: black;
+}
+ul li:first-child {
+	margin-top: 1em;
+}
+ul li {
+	margin-bottom: 1em;
+}
+
